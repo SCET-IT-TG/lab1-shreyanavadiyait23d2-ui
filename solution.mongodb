@@ -1,0 +1,86 @@
+db = db.getSiblingDB("examDB");
+
+db.students.insertOne({
+  name: "Elon Musk",
+  department: "CO",
+  semester: 5,
+  mobile no: "9085375181"
+})
+
+db.students.insertOne({
+   name: "Ashish Shah",
+   department: "IT",
+   semester: 5,
+   mobile no: "8662386513"
+ })
+
+
+
+
+db.students.insertOne({
+   name: "Rahul Shah",
+   department: "IT",
+   semester: 5,
+   mobile no : "1234567890"
+ })
+
+
+
+
+db.subjects.insert({
+  course_name: "IT",
+  subject_list: ["NOSQL","AIA","MATHS"],
+})
+
+
+
+db.faculty.insert({
+  department: "IT",
+  teachers: [
+    { name: "xx", experience: 5 },
+    { name: "yy", experience: 3 },
+    { name: "zz", experience: 7 }
+  ]
+});
+
+
+db.students.insertOne({
+   _id: ObjectId("64abc123456789abcdef1234"),
+   name: "Chitra Patel",
+   department: "IT",
+   semester: 5,
+   mobile no:"8787900456"
+ })
+
+
+
+db.students.insertOne({
+   _id: ObjectId("64abc123456789abcdef1234"),
+   name: "Chirag Dave",
+   department: "IT",
+   semester: 5,
+   mobile no: "7863642845"
+ })
+
+
+
+db.students.insertOne({
+   name: "Amit Modi",
+   department: "IT",
+   semester: 5,
+   mobile no: "7863642845"
+ })
+
+db.students.insertOne({
+   name: "trusha Shah",
+   department: "IT",
+   semester: 5,
+   mobile no: "7863642845"
+ })
+
+db.students.insertOne({
+   name: "Ayush Shah",
+   department: "IT",
+   semester: 5,
+  mobile no: "7863642845"
+ })
